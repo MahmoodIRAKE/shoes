@@ -21,7 +21,7 @@ const ProductCard = ({ obj}) => {
                 </div>
                 <div className="extra content">
                     <div className="ui two buttons">
-                    <Link to={`/product/:${obj.id}`} className="item ui basic green button">
+                    <Link to={`/product/${obj.id}`} className="item ui basic green button">
                        Update
                      </Link>
                         
