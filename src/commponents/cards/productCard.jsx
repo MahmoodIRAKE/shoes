@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Link } from "react-router-dom";
 import { removeData } from "../../api/firebaseApi";
@@ -20,7 +21,7 @@ const ProductCard = ({ obj}) => {
                 </div>
                 <div className="extra content">
                     <div className="ui two buttons">
-                    <Link to={`/product/${obj.id}`} className="item ui basic green button">
+                    <Link to={`/product/:${obj.id}`} className="item ui basic green button">
                        Update
                      </Link>
                         
