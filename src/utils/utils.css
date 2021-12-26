@@ -1,0 +1,11 @@
+.flexing-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    flex-direction: column;
+}
+.space{
+    justify-content: space-evenly;
+}
